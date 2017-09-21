@@ -10,9 +10,10 @@ public class Program8 {
 		Scanner converter = new Scanner(System.in);
 		fahrenheit = converter.nextDouble();
 		celsius = (fahrenheit - 32) * 5 / 9;
-		System.out.print(celsius+" Degrees Celsius");
+		System.out.print(fahrenheit+" Degrees Fahrenheit is: "+celsius+" Degrees Celsius");
 		converter.close();
 
 	}
 
 }
+//I pushed this to git
